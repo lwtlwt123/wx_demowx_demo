@@ -1,6 +1,8 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/bar2/bar2",
+    "pages/bar1/bar1",
     "pages/cla/cla",
     "pages/logs/logs",
     "pages/new/new"
@@ -12,5 +14,19 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#ff6700",
+    "color": "green",
+    "borderStyle": "black",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"这里是bar1"
+      },{
+        "pagePath":"pages/bar2/bar2",
+        "text":"这里是bar2"
+      }
+    ]
+  }
 }

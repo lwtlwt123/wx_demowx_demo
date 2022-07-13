@@ -28,7 +28,7 @@ Page({
     })
     //测试页面跳转
     console.log(this.data.testNum);
-    // 跳转的方法，关闭当前页面，跳转到应用的某个页面，但是不允许跳转到tabbar页面
+    // 跳转的方法，保留当前页面，跳转到应用的某个页面，但是不允许跳转到tabbar页面
     wx.navigateTo({
       //跳转路径前要加上'/'
       url: '/pages/cla/cla?data=我要传递的数据'

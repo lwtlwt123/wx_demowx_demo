@@ -1,2 +1,10 @@
 <!--pages/cla/cla.wxml-->
-<text>pages/cla/cla.wxml</text>
+<view>
+  <text bindtap="testFn">测试跳转方法</text>
+</view>
+<view>
+  <text bindtap="pageBackFn">测试页面回退方法</text>
+</view>
+<view>
+<text bindtap="closeAllPagesFn">测试关闭所有页面的方法</text>
+</view>

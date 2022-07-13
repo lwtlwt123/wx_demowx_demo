@@ -1,4 +1,4 @@
-// pages/cla/cla.js
+// pages/bar1/bar1.js
 Page({
 
   /**
@@ -62,29 +62,5 @@ Page({
    */
   onShareAppMessage() {
 
-  },
-  //跳转方法测试
-  testFn(){
-    console.log('这里是跳转方法的测试');
-    // 关闭当前页面，跳转到应用内的页面，但是不允许跳转到tabbar页面
-    wx.redirectTo({
-      url: '/pages/logs/logs',
-    })
-  },
-  //回退页面方法测试
-  pageBackFn(){
-    console.log('这里是回退页面测试');
-    wx.navigateBack({
-      // 回退步数
-      delta: 2,
-    })
-  },
-  //测试关闭所有页面的方法
-  closeAllPagesFn(){
-    console.log('这里是关闭所有页面的方法');
-    wx.reLaunch({
-      //关闭所有页面，打开应用内的页面
-      url: '/pages/logs/logs',
-    })
   }
 })
